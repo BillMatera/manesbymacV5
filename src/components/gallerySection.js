@@ -24,7 +24,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
       style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop }} 
       id="gallerySection"
     >
-    <h1 style={{ textAlign: "center", padding: "25px", color: 'black'}}>Gallery</h1>
+    <h1 style={{ textAlign: "center", padding: "25px", color: 'black', position : 'relative'}}>Gallery</h1>
 
     <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
   <div style={{ backgroundColor: 'black'}} class="carousel-inner">
