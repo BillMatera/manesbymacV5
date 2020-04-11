@@ -4,7 +4,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import Image from "../components/image"
 // import { url } from "inspector";
-import imgtest from "../images/sample_pic.png"
+import imgtest from "../images/sample_pic.png" 
 import "./layout.css"
 
 
