@@ -44,6 +44,10 @@ window.onscroll = function() {
   return (
     <div>
     <Helmet>
+
+    {/* <!-- Global site tag (gtag.js) - Google Analytics --> */}
+    
+    
         
       {/* including font awesome incons */}
       <script src="https://kit.fontawesome.com/e2a027d1b1.js" crossorigin="anonymous"></script>

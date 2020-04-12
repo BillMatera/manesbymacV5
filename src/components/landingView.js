@@ -28,6 +28,7 @@ const LandingView = ({ }) => {
   }
   
   $( document ).ready(function() { 
+    
     document.getElementsByClassName('vidtest2')[0].addEventListener('suspend', (event) => {
       console.log('suspend event triggered');
       // if user is on IOS device in low power mode HTML5 video tags will not autoplay
