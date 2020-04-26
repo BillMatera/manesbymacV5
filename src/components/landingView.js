@@ -34,7 +34,7 @@ const LandingView = ({ }) => {
       console.log('suspend event triggered');
       // if user is on IOS device in low power mode HTML5 video tags will not autoplay
       if (!isPlaying() && iOSDevice() ) {
-        document.getElementById('landing-block').classList.add('alternate-landing-view');
+        //document.getElementById('landing-block').classList.add('alternate-landing-view');
       }
       //document.getElementById('landing-block').classList.add('alternate-landing-view');
       let backgroundVideo = document.getElementsByClassName('vidtest2')[0];
@@ -54,7 +54,7 @@ const LandingView = ({ }) => {
   return (
     
     <div style={{ height : '600px'}} className="banner">
-      <div className="landing-view" id="landing-block">
+      <div className="landing-view alternate-landing-view" id="landing-block">
       <h2 style={{ zIndex : '2' , position : 'relative' , fontFamily : " 'Pacifico', cursive " 
                     , textAlign : 'center' , fontSize : '75px' , textShadow : 'rgba(0, 0, 0, 0.3) -10px 10px 18px, rgba(192, 128, 255, 0.1) 10px -10px 30px'}} >MM</h2>
 
