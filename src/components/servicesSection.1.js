@@ -3,9 +3,8 @@ import PropTypes from "prop-types"
 import React from "react"
 import Helmet from "react-helmet"
 import Image from "./image"
-import imgtest from "../images/test_1.png"
 import $ from 'jquery'
-import testvid from "../images/under-sea-compress.mp4"
+import testvid from "../images/under-the-sea_prod.mp4"
 
 
 

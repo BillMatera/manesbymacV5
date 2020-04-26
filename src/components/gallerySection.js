@@ -4,12 +4,11 @@ import React from "react"
 import Helmet from "react-helmet"
 import Image from "../components/image"
 // import { url } from "inspector";
-import imgtest from "../images/sample_pic.png"
-import hair1 from "../images/hair_1.jpg"
-import hair2 from "../images/hair_2.jpg"
-import hair3 from "../images/hair_3.jpg"
-import hair4 from "../images/hair_4.jpg"
-import hair5 from "../images/hair_5.jpg"
+import hair1 from "../images/hair_1-min.jpg"
+import hair2 from "../images/hair_2-min.jpg"
+import hair3 from "../images/hair_3-min.jpg"
+import hair4 from "../images/hair_4-min.jpg"
+import hair5 from "../images/hair_5-min.jpg"
 import "./layout.css"
 import $ from 'jquery'
 
@@ -37,6 +36,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
       style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop }} 
       id="gallerySection"
     >
+
     <h1 style={{ textAlign: "center", padding: "25px", color: 'black', position: 'relative'}}>Gallery</h1>
 
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">

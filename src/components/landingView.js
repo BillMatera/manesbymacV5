@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Helmet from "react-helmet"
-import testvid from "../images/under-sea-compress.mp4"
+import testvid from "../images/under-the-sea_prod.mp4"
 import $ from 'jquery';
 
 const LandingView = ({ }) => {
@@ -28,6 +28,7 @@ const LandingView = ({ }) => {
   }
   
   $( document ).ready(function() { 
+    
     document.getElementsByClassName('vidtest2')[0].addEventListener('suspend', (event) => {
       console.log('suspend event triggered');
       // if user is on IOS device in low power mode HTML5 video tags will not autoplay
