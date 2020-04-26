@@ -24,6 +24,11 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
 
   };
 
+  // if (typeof window !== `undefined`) {
+  //   $('.carousel').carousel({
+  //     interval: 2000
+  //   });
+  // }
 
 
 
@@ -34,7 +39,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
     >
     <h1 style={{ textAlign: "center", padding: "25px", color: 'black', position: 'relative'}}>Gallery</h1>
 
-    <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+    <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
   <div style={{ backgroundColor: 'rgba(233, 246, 251, 0.4)'}} class="carousel-inner">
     <div class="carousel-item active">
       <img className="img1" src={hair3} class="w-400 img1" alt="los angeles"></img>
