@@ -3,6 +3,7 @@ import PropTypes from "prop-types"
 import React from "react"
 import Helmet from "react-helmet"
 import testvid from "../images/under-the-sea_prod.mp4"
+import vidPoster from "../images/background-poster.png"
 import $ from 'jquery';
 
 const LandingView = ({ }) => {
@@ -63,7 +64,7 @@ const LandingView = ({ }) => {
       <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '35px' , fontFamily : " 'Quicksand', sans-serif" 
                     , textAlign : 'center' , fontSize : '18px'}} >Hair Artist Based in Central New Jersey</h2>     
       </div>
-      <video src={testvid} className="vidtest2" id="vid" preload muted="true" autoplay="autoplay" playsinline="playsinline" loop="loop" ></video>
+      <video src={testvid} className="vidtest2" id="vid" poster={vidPoster} preload muted="true" autoplay="autoplay" playsinline="playsinline" loop="loop" ></video>
     </div>
 
   )
