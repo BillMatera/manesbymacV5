@@ -112,7 +112,8 @@ const ServicesSection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =
       // else if it is the new <ul> block , show it
       else if (view.id === event.target.id) {
         event.preventDefault();
-        $(view).collapse();
+        //$(view).collapse();
+        $(view).addClass('show');
       }
     }
   };
@@ -155,15 +156,15 @@ const ServicesSection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =
               {/* START of vertical category list */}
               <div className="col-one skills-col col-lg-4 col-md-4 hidden-xs " style={{ textAlign : 'center', paddingBottom : '50px' }}>
 
-                <a id="cutsAnchor" className="services-category active-category" data-toggle="collapse" data-target=".multi-collapse" href="#0" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Cuts & Combo </h5> </a>
+                <a id="cutsAnchor" className="services-category active-category" data-toggle="collapse" data-target=".multi-collapse"  role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Cuts & Combo </h5> </a>
 
-                <a id="colorAnchor" className="services-category" data-toggle="collapse" data-target="#testId1" href="#0" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Color </h5> </a>
+                <a id="colorAnchor" className="services-category" data-toggle="collapse" data-target="#testId1"  role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Color </h5> </a>
 
-                <a id="bleachAnchor" className="services-category" data-toggle="collapse" data-target="#testId3" href="#0" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Bleaching Serivces </h5> </a>
+                <a id="bleachAnchor" className="services-category" data-toggle="collapse" data-target="#testId3" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Bleaching Serivces </h5> </a>
 
-                <a id="extensionsAnchor" className="services-category" data-toggle="collapse" data-target="#testId5" href="#0" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Extensions </h5> </a>
+                <a id="extensionsAnchor" className="services-category" data-toggle="collapse" data-target="#testId5"role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Extensions </h5> </a>
 
-                <a id="keratinAnchor" className="services-category" data-toggle="collapse" data-target="#testId6" href="#0" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Keratin Treatments </h5> </a>
+                <a id="keratinAnchor" className="services-category" data-toggle="collapse" data-target="#testId6" role="button" aria-expanded="false" aria-controls="multiCollapseExample1"><h5 className="services-h3"> Keratin Treatments </h5> </a>
 
               </div>
               {/* END of vertical category list */}

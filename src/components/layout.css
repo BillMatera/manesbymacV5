@@ -208,13 +208,22 @@ h5 {
   }
 }
 
-@media (max-width: 500px) {
-  .img1{
-    width: unset;
-    height: unset;
+
+
+@media (max-width: 767px){
+  #mobileimg{
+    width : 270px !important;
+    height : 370px
+  }
+  .carousel-inner{
+    height: 390px !important
+  }
+  #carouselExampleFade{
+    margin-left: 20px !important;
+    margin-right: 20px !important;
+    height: 400px !important
   }
 }
-
 
 
 
@@ -802,7 +811,7 @@ noscript {
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
-  padding-right: 0;
+  padding-right : 0;
   padding-top: 0;
   margin-bottom: 1.45rem;
 }

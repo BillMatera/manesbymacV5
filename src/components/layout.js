@@ -16,7 +16,6 @@ import Image from "../components/image"
 import Header from "./header"
 import "./layout.css"
 import ServicesSection from "./servicesSection";
-import ServicesSection1 from "./servicesSection.1";
 import GallerySection from "./gallerySection";
 import LandingView from "./landingView";
 

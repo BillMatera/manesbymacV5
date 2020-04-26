@@ -23,6 +23,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
 
   };
 
+
   // if (typeof window !== `undefined`) {
   //   $('.carousel').carousel({
   //     interval: 2000
@@ -30,7 +31,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
   // }
 
 
-
+  
   return (
     <div 
       style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop }} 
@@ -42,19 +43,19 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
   <div style={{ backgroundColor: 'rgba(233, 246, 251, 0.4)'}} class="carousel-inner">
     <div class="carousel-item active">
-      <img className="img1" src={hair3} class="w-400 img1" alt="los angeles"></img>
+      <img id="mobileimg" className="img1" src={hair3} class="w-400 img1" alt="los angeles"></img>
     </div>
     <div class="carousel-item">
-      <img className="img1" src={hair1} class="w-400 img1" alt="los angeles"></img>
+      <img id="mobileimg" className="img1" src={hair1} class="w-400 img1" alt="los angeles"></img>
     </div>
     <div class="carousel-item">
-      <img className="img1" src={hair2} class="w-400 img1" alt="los angeles"></img>
+      <img id="mobileimg" className="img1" src={hair2} class="w-400 img1" alt="los angeles"></img>
     </div>
     <div class="carousel-item">
-      <img className="img1" src={hair4} class="w-400 img1" alt="los angeles"></img>
+      <img id="mobileimg" className="img1" src={hair4} class="w-400 img1" alt="los angeles"></img>
     </div>
     <div class="carousel-item">
-      <img className="img1" src={hair5} class="w-400 img1" alt="los angeles"></img>
+      <img id="mobileimg" className="img1" src={hair5} class="w-400 img1" alt="los angeles"></img>
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
