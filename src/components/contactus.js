@@ -32,7 +32,7 @@ const ContactUs = ({ blockHeight , backgroundColorVal , blockMarginTop}) => {
 
           <div className="row"> 
           
-            <div className="col-lg-5" style={{ backgroundColor : 'rgba(233, 246, 251, 0.4)' }}>
+            <div className="col-lg-5" style={{ backgroundColor : 'rgba(233, 246, 251, 0.5)' }}>
 
               <p className="" style={{ whiteSpace : 'pre-wrap' , paddingTop : '15px' }}><b>Location : Cathy and  Danielle's Hair Salon</b> </p>
 
@@ -45,9 +45,11 @@ const ContactUs = ({ blockHeight , backgroundColorVal , blockMarginTop}) => {
 
               {/* <p className="" style={{ whiteSpace : 'pre-wrap' }}><b>Location : Cathy and  Danielle's Hair Salon</b> </p> */}
 
-              <p className="" style={{ whiteSpace : 'pre-wrap' }}>93 Main Street </p>
-
-              <p className="" style={{ whiteSpace : 'pre-wrap' }}>Farmingdale, NJ 07727</p>
+              <p className="" style={{ whiteSpace : 'pre-wrap' }}>
+                <b>Address</b>
+                <br />
+                93 Main Street , Farmingdale, NJ 07727
+              </p>
 
             </div>
 

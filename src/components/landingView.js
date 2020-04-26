@@ -2,7 +2,7 @@ import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 import Helmet from "react-helmet"
-import testvid from "../images/under-the-sea_prod.mp4"
+import testvid from "../images/under-sea-2.mp4"
 import vidPoster from "../images/background-poster.png"
 import $ from 'jquery';
 

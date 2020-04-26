@@ -304,15 +304,17 @@ video::-webkit-media-controls-panel{
   margin-top: 150px;
 }
 
+@media (max-width: 500px){
 .alternate-landing-view {
   /* margin-top: 150px; */
-  background-color: black;
+  background-color: rgb(247,251,251,0.8);
   z-index: 2;
-  color: papayawhip;
+  color: purple;
   padding-bottom: 10px;
   margin-right: 10%;
   margin-left: 10%;
   position: relative;
+}
 }
 
 .carousel-item {

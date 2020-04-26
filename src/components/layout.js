@@ -44,11 +44,15 @@ const Layout = ({ children }) => {
       {/* include Services Section component  */}
       <ServicesSection blockHeight={'auto'} />
       
-      {/* include Contact Us component  */}
-      <ContactUs blockHeight={'auto'} backgroundColorVal={'#D1D7E0'} />
 
       {/* include Gallery Section component  */}
       <GallerySection blockHeight={'auto'} backgroundColorVal={'white'}/>
+
+      
+      {/* include Contact Us component  */}
+      <ContactUs blockHeight={'auto'} backgroundColorVal={'#D1D7E0'} />
+
+      
 
       
 
