@@ -10,16 +10,16 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
   if (stage === "build-html") {
     actions.setWebpackConfig({
       externals: {
-        jquery: 'jQuery', // important: 'Q' capitalized
+        jquery: 'jquery', // important: 'Q' capitalized
       },
-      module: {
-        rules: [
-          {
-            test: /jQuery/,
-            use: loaders.null(),
-          },
-        ],
-      },
+      // module: {
+      //   rules: [
+      //     {
+      //       test: /jQuery/,
+      //       use: loaders.null(),
+      //     },
+      //   ],
+      // },
     })
   }
 }
