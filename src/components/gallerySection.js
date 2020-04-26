@@ -34,7 +34,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
   
   return (
     <div 
-      style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop }} 
+      style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop , paddingTop : '200px' }} 
       id="gallerySection"
     >
 

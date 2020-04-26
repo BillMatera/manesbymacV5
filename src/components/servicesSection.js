@@ -138,7 +138,7 @@ const ServicesSection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =
   return (
     <>
     <div 
-      style={{ height : blockHeight , marginTop: blockMarginTop  }} 
+      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '200px'  }} 
       id="servicesSection"
       className="Logo"
     > 
