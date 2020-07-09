@@ -11,6 +11,7 @@ import hair4 from "../images/hair_4-min.jpg"
 import hair5 from "../images/hair_5-min.jpg"
 import "./layout.css"
 import $ from 'jquery'
+import { white } from "color-name";
 
 
 
@@ -34,14 +35,15 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
   
   return (
     <div 
-      style={{ height : blockHeight , backgroundColor: backgroundColorVal , marginTop: blockMarginTop , paddingTop : '200px' }} 
+      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '50px' , color: 'white'}} 
       id="gallerySection"
+      class="gallery-bg bg-band"
     >
 
-    <h1 style={{ textAlign: "center", padding: "25px", color: 'black', position: 'relative'}}>Gallery</h1>
+    <h1 style={{ textAlign: "center", padding: "25px",  position: 'relative'}}>Gallery</h1>
 
     <div id="carouselExampleFade" className="carousel slide carousel-fade" data-ride="carousel" data-interval="2000">
-  <div style={{ backgroundColor: 'rgba(233, 246, 251, 0.5)'}} class="carousel-inner">
+  <div class="carousel-inner">
     <div class="carousel-item active">
       <img id="mobileimg" className="img1" src={hair3} class="w-400 img1" alt="los angeles"></img>
     </div>

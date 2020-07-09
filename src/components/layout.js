@@ -63,7 +63,6 @@ const Layout = ({ children }) => {
         style={{
           margin: `0 auto`,
           maxWidth: '100%',
-          paddingTop: `15px`,
           position: 'relative',
           height: '30px',
           fontSize: '12px',
@@ -71,8 +70,12 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ backgroundColor : 'black' , color : 'white' }}>
+        <footer style={{ backgroundColor : '#f7f7f7' , color : 'black' }}>
+          <div class="col-lg-12"> 
+          <span>
           © {new Date().getFullYear()}, R&B Technology
+          </span>
+            </div>
         </footer>
       </div>
 

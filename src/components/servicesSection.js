@@ -138,7 +138,7 @@ const ServicesSection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =
   return (
     <>
     <div 
-      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '200px'  }} 
+      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '50px' , backgroundColor: '#f7f7f7'  }} 
       id="servicesSection"
       className="Logo"
     > 
@@ -196,7 +196,7 @@ const ServicesSection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =
               </div>
 
               {/* START of category Views */}
-              <div className="col-one tab-content skills-col col-lg-5 col-md-8 .d-none .d-sm-block" style={{ textAlign : 'center', paddingBottom : '50px' , backgroundColor : 'rgba(233, 246, 251, 0.5)'}}>
+              <div className="col-one tab-content skills-col col-lg-5 col-md-8 .d-none .d-sm-block" style={{ textAlign : 'center', paddingBottom : '50px' }}>
 
                 <ul id="testId" style={{ listStyleType : 'none' , margin : 0 }}
                     className="collapse multi-collapse show">

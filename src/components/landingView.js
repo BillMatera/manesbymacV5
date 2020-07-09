@@ -4,6 +4,7 @@ import React from "react"
 import Helmet from "react-helmet"
 import testvid from "../images/under-sea-zipped.mp4"
 import vidPoster from "../images/background-poster.png"
+import LandingImg from "-!svg-react-loader!../assets/undraw_jewelry_iima.svg"
 import $ from 'jquery';
 
 const LandingView = ({ }) => {
@@ -30,21 +31,21 @@ const LandingView = ({ }) => {
   
   $( document ).ready(function() { 
     
-    document.getElementsByClassName('vidtest2')[0].addEventListener('suspend', (event) => {
-      console.log('suspend event triggered');
-      // if user is on IOS device in low power mode HTML5 video tags will not autoplay
-      if (!isPlaying() && iOSDevice() ) {
-        //document.getElementById('landing-block').classList.add('alternate-landing-view');
-      }
-      //document.getElementById('landing-block').classList.add('alternate-landing-view');
-      let backgroundVideo = document.getElementsByClassName('vidtest2')[0];
-      $('body').on('click touchstart', function () {
-        if (!isPlaying()) {
-            // user has interacted with the page, play background video
-            backgroundVideo.play();
-        }
-      }); 
-    });
+    // document.getElementsByClassName('vidtest2')[0].addEventListener('suspend', (event) => {
+    //   console.log('suspend event triggered');
+    //   // if user is on IOS device in low power mode HTML5 video tags will not autoplay
+    //   if (!isPlaying() && iOSDevice() ) {
+    //     //document.getElementById('landing-block').classList.add('alternate-landing-view');
+    //   }
+    //   //document.getElementById('landing-block').classList.add('alternate-landing-view');
+    //   let backgroundVideo = document.getElementsByClassName('vidtest2')[0];
+    //   $('body').on('click touchstart', function () {
+    //     if (!isPlaying()) {
+    //         // user has interacted with the page, play background video
+    //         backgroundVideo.play();
+    //     }
+    //   }); 
+    // });
 
   });
   
@@ -53,18 +54,25 @@ const LandingView = ({ }) => {
   
   return (
     
-    <div style={{ height : '600px'}} className="banner">
-      <div className="landing-view alternate-landing-view" id="landing-block">
-      <h2 style={{ zIndex : '2' , position : 'relative' , fontFamily : " 'Pacifico', cursive " 
+    <div className="banner bg-diagnal main-block">
+      <div className="landing-view row" id="landing-block">
+      <div class="col-lg-6 col-md-6 col-sm-4">
+        <h2 style={{ zIndex : '2' , position : 'relative' , fontFamily : " 'Pacifico', cursive " 
                     , textAlign : 'center' , fontSize : '75px' , textShadow : 'rgba(0, 0, 0, 0.3) -10px 10px 18px, rgba(192, 128, 255, 0.1) 10px -10px 30px'}} >MM</h2>
 
-      <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '50px' , fontFamily : " 'Quicksand', sans-serif " 
+        <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '50px' , fontFamily : " 'Quicksand', sans-serif " 
                     , textAlign : 'center' , fontSize : '50px'}} >Manes By Macey</h2>
 
-      <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '35px' , fontFamily : " 'Quicksand', sans-serif" 
+        <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '35px' , fontFamily : " 'Quicksand', sans-serif" 
                     , textAlign : 'center' , fontSize : '18px'}} >Hair Artist Based in Central New Jersey</h2>     
       </div>
-      <video src={testvid+'#t=0.1'} className="vidtest2" id="vid"  preload muted="true" autoplay="autoplay" playsinline="playsinline" loop="loop" ></video>
+      <div class="col-lg-6 col-md-6 col-sm-4" >
+          <div>
+          <LandingImg style={{ height: '300px' , width : '300px' , marginLeft: '25%'}} />
+          </div>
+      </div>
+      </div>
+      {/* <video src={testvid+'#t=0.1'} className="" id="vid"  preload muted="true" autoplay="autoplay" playsinline="playsinline" loop="loop" ></video> */}
     </div>
 
   )
