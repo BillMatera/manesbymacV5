@@ -70,7 +70,7 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer style={{ backgroundColor : '#f7f7f7' , color : 'black' }}>
+        <footer style={{ color : 'black' }}>
           <div class="col-lg-12"> 
           <span>
           © {new Date().getFullYear()}, R&B Technology

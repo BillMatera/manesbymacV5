@@ -22,7 +22,7 @@ if (typeof window !== 'undefined') {
 const ContactUs = ({ blockHeight , backgroundColorVal , blockMarginTop}) => {
   return (
     <div 
-      style={{ height : blockHeight , backgroundColor: '#f7f7f7' }} 
+      style={{ height : blockHeight }} 
       id="contactSection"
     >
       <h1 style={{ textAlign: "center", padding: "25px" , position : 'relative' , paddingTop : '100px'}}>Contact Us</h1>

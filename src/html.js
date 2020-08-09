@@ -24,6 +24,7 @@ export default function HTML(props) {
           key={`body`}
           id="___gatsby"
           dangerouslySetInnerHTML={{ __html: props.body }}
+          className="bg-svg"
         />
         {props.postBodyComponents}
       </body>

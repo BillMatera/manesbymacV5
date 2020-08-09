@@ -35,7 +35,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
   
   return (
     <div 
-      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '50px' , color: 'white'}} 
+      style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '50px' , color: 'white' , marginLeft: '100px' , marginRight: '100px'}} 
       id="gallerySection"
       class="gallery-bg bg-band"
     >
