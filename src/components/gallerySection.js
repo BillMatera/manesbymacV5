@@ -37,7 +37,7 @@ const GallerySection = ({ blockHeight , backgroundColorVal , blockMarginTop}) =>
     <div 
       style={{ height : blockHeight , marginTop: blockMarginTop , paddingTop : '50px' , color: 'white'}} 
       id="gallerySection"
-      className="gallery-bg bg-band logo-style"
+      className="gallery-bg bg-band logo-style map-shadow"
     >
 
     <h1 style={{ textAlign: "center", padding: "25px",  position: 'relative'}}>Gallery</h1>
