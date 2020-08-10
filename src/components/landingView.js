@@ -56,7 +56,8 @@ const LandingView = ({ }) => {
     
     <div className="banner bg-diagnal main-block">
       <div className="landing-view row" id="landing-block">
-      <div class="col-lg-6 col-md-6 col-sm-4">
+      <div className="col-lg-6 col-md-6 col-sm-4">
+        <div className="landing-margin-desktop">
         <h2 style={{ zIndex : '2' , position : 'relative' , fontFamily : " 'Pacifico', cursive " 
                     , textAlign : 'center' , fontSize : '75px' , textShadow : 'rgba(0, 0, 0, 0.3) -10px 10px 18px, rgba(192, 128, 255, 0.1) 10px -10px 30px'}} >MM</h2>
 
@@ -66,9 +67,10 @@ const LandingView = ({ }) => {
         <h2 style={{ zIndex : '2' , position : 'relative' , paddingTop : '35px' , fontFamily : " 'Quicksand', sans-serif" 
                     , textAlign : 'center' , fontSize : '18px'}} >Hair Artist Based in Central New Jersey</h2>     
       </div>
-      <div class="col-lg-6 col-md-6 col-sm-4" >
+      </div>
+      <div className="col-lg-6 col-md-6 col-sm-4" >
           <div>
-          <LandingImg style={{ height: '300px' , width : '300px' , marginLeft: '25%'}} />
+          <LandingImg style={{ height: '300px' , width : '300px' , marginLeft: '15%'}} />
           </div>
       </div>
       </div>

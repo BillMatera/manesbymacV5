@@ -55,7 +55,7 @@ const ContactUs = ({ blockHeight , backgroundColorVal , blockMarginTop}) => {
 
             <div className="col-lg-1"></div>
 
-            <div id="map" className="col-lg-6 map-buffer" style={{ width: "100%" , height :"400px", backgroundColor : "grey"}}>
+            <div id="map" className="col-lg-6 map-buffer map-shadow" style={{ width: "100%" , height :"400px", backgroundColor : "grey"}}>
             Google Map
 
             </div>
