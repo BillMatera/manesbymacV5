@@ -399,6 +399,10 @@ video::-webkit-media-controls-panel{
   margin-left:30px;
   margin-right:30px;
 }
+
+.landing-margin-desktop{
+  margin-left: unset;
+}
 }
 
 .carousel-item {
