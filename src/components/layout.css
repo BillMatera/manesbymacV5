@@ -2,7 +2,8 @@
 /* @@TODO : remove !important's */
 
 .bg-svg {
-  background-image: url('../images/Bubble-111.1s-2024px.svg');
+  background-image: url('../images/Bubble-90.9s-1939px.svg');
+  background-size: cover;
 }
 
 
@@ -21,7 +22,7 @@
   font-size: 23px;
 }
 .nav-div{
-  background-color: black;
+  background-color: rgb(0,0,0, 0.65);
 }
 
 /* .main-block{
@@ -29,11 +30,11 @@
 } */
 
 .gallery-bg {
-  background-color: #bbddff;
+  background-color: rgb(94,17,188,0.55);
 }
 
 .gallery-bg:before{
-  background-image: linear-gradient(to top right,#bbddff,#bbddff 50%,transparent 0,transparent)
+  background-image: linear-gradient(to top right,rgb(94,17,188,0.55),rgb(94,17,188,0.55) 50%,transparent 0,transparent)
 }
 
 .bg-band {
@@ -65,7 +66,7 @@
 }
 
 .gallery-bg:after{
-  background-image:linear-gradient(to bottom left,#bbddff,#bbddff 50%,transparent 0,transparent)
+  background-image:linear-gradient(to bottom left,rgb(94,17,188,0.55),rgb(94,17,188,0.55) 50%,transparent 0,transparent)
 }
 
 .main-block:after {
